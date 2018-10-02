@@ -18,8 +18,8 @@ body .polaroid {
 }
 
 .polaroid:nth-child(1) {
-  left: 11.75em;
-  top: 6.5em;
+  left: 12em;
+  top: 6.25em;
   transform: rotate(-12.5deg);
 }
 
@@ -48,4 +48,6 @@ body .polaroid {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
+  bottom: 1.25em;
+  left: 5.25em;
 }
