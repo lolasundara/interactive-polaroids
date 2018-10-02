@@ -37,6 +37,7 @@ body .polaroid {
 }
 
 .polaroid:hover {
+  z-index: 1;
 }
 
 .polaroid > img {
