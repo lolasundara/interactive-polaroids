@@ -8,8 +8,7 @@ body .polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transition: all 1s linear;
-  transform: rotate();
+  transition: all 200ms linear;
   position: relative;
 
   background-color: #fff;
@@ -37,7 +36,9 @@ body .polaroid {
 }
 
 .polaroid:hover {
-  z-index: 1;
+  z-index: 5;
+  transform: rotate(0deg);
+  box-shadow: ;
 }
 
 .polaroid > img {
