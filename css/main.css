@@ -38,6 +38,7 @@ body .polaroid {
 .polaroid:hover {
   z-index: 5;
   transform: rotate(0deg);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 }
 
 .polaroid > img {
@@ -51,4 +52,9 @@ body .polaroid {
   position: absolute;
   bottom: 1.25em;
   left: 5.25em;
+}
+
+.polaroid {
+  transition: all 200ms linear;
+  position: absolute;
 }
